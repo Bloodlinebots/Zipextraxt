@@ -1,0 +1,17 @@
+{
+  "name": "zip-media-uploader-bot",
+  "description": "A Telegram bot that extracts media from ZIP files and posts to connected channels",
+  "repository": "https://github.com/yourusername/zip-media-uploader-bot",
+  "keywords": ["telegram", "bot", "zip", "media", "python"],
+  "env": {
+    "TOKEN": {
+      "description": "Your bot token from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
