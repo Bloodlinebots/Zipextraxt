@@ -10,7 +10,7 @@ from telegram.constants import ChatAction
 from telegram.error import Forbidden
 
 # ======== CONFIG ========
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = os.environ["TOKEN"]
 EXTRACT_FOLDER = "extracted_files"
 user_channel_map = {}  # user_id: channel_id
 # ========================
